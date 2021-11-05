@@ -75,7 +75,7 @@ The idea is that a VR space is represented by an Algorand application, with the 
 
 The system could optionally limit the items in the VR space to ones that are owned by the application creator. And it would probably limit changes to asset properties (such as repositioning them) 
 
-The networked aframe system takes care of synchronizing live state changes. An application transaction call by the owner of the VR space saves the current state.
+The networked aframe system takes care of synchronizing live (potentially temporary) state changes. An application transaction call by the owner of the VR space saves the current state.
 
 ## VR-Friendly Algorand Wallet
 
