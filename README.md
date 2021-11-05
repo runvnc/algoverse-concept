@@ -79,8 +79,8 @@ The networked aframe system takes care of synchronizing live state changes. An a
 
 ## VR-Friendly Algorand Wallet
 
-With an Algorand wallet system, perhaps built similarly to My Algo Connect, but with confirmation and data entry integrated into the VR environment, would facilitate the application calls and perhaps the integration of commerce.
-
+With an Algorand wallet system, perhaps built similarly to My Algo Connect (https://github.com/randlabs/myalgo-connect, https://github.com/randlabs/encrypted-local-storage) , but with confirmation and data entry integrated into the VR environment, would facilitate the application calls and perhaps the integration of commerce.
+ 
 ## Commerce
 
 A-frame applications may use components that extend their functionality and available markup properties. There could be properties that invoke the VR friendly integrated wallet for purchase of a 3d model, for example.
