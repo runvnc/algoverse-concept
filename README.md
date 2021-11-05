@@ -91,4 +91,4 @@ Unfortunately, navigation between pages in VR is not well supported (does not cu
 
 ## HTML NFTs
 
-It should be possible to host this concept inside of an HTML NFT that would be tradable and accessible inside of Algornand NFT gallery web pages.
+It should be possible to host this concept inside of an HTML NFT that would be tradable and accessible inside of Algorand NFT gallery web pages.
