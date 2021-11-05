@@ -89,3 +89,6 @@ A-frame applications may use components that extend their functionality and avai
 
 Unfortunately, navigation between pages in VR is not well supported (does not currently work on Quest 2), even though such a feature was previously available. There may be a workaround: link VR spaces on the basis of Algorand application IDs instead of requiring any URL, and keep all of the loading and unloading of spaces inside of the same web page.
 
+## HTML NFTs
+
+It should be possible to host this concept inside of an HTML NFT that would be tradable and accessible inside of Algornand NFT gallery web pages.
