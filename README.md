@@ -25,6 +25,8 @@ This is the github repo: https://github.com/aframevr/aframe/
 
 ```
 
+## Networked a-frame
+
 There is additionally something called networked-aframe which allows relatively trivial implementation of multiplayer VR:
 https://github.com/networked-aframe/networked-aframe
 
@@ -50,4 +52,37 @@ https://github.com/networked-aframe/networked-aframe
   </body>
 </html>
 ```
+
+## Entities
+
+Each entity in the A-frame entity-component-system has a position, rotation, and scale.
+
+## Algorand Wallets and NFTs
+
+An Algorand wallet for an NFT collector may contain a number of NFTs such as images, videos, or 3D models (such as the GLTF/GLB format supported by A-frame).
+
+## Algorand Stateful Contracts (Applications)
+
+Algorand applications provide a way to store variable state on a blockchain, with access control based on wallet ownership. 
+
+## IPFS and assets
+
+Assets such as 3d models would be stored on IPFS. Alternatively, A-frame markup snippets could be stored, along with any pre-requisite script references, with 3D models refrenced from IPFS gateways.
+
+## Idea
+
+The idea is that a VR space is represented by an Algorand application, with the properties of objects inside of it such as rotation and position (or component-specific properties) represented as global state variables. The keys for these variables may be the asset ids, and the values may be strings that would be property declarations in a-frame.  Or, simply serialize the normal markup into a group of byte slices to be concatenated together.
+
+The system could optionally limit the items in the VR space to ones that are owned by the application creator. And it would probably limit changes to asset properties (such as repositioning them) 
+
+The networked aframe system takes care of synchronizing live state changes. An application transaction call by the owner of the VR space saves the current state.
+
+## VR-Friendly Algorand Wallet
+
+With an Algorand wallet system, perhaps built similarly to My Algo Connect, but with confirmation and data entry integrated into the VR environment, would facilitate the application calls and perhaps the integration of commerce.
+
+## Commerce
+
+A-frame applications may use components that extend their functionality and available markup properties. There could be properties that invoke the VR friendly integrated wallet for purchase of a 3d model, for example.
+
 
