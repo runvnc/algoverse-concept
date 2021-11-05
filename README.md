@@ -79,7 +79,7 @@ The networked aframe system takes care of synchronizing live (potentially tempor
 
 ## VR-Friendly Algorand Wallet
 
-With an Algorand wallet system, perhaps built similarly to My Algo Connect (https://github.com/randlabs/myalgo-connect, https://github.com/randlabs/encrypted-local-storage) , but with confirmation and data entry integrated into the VR environment, would facilitate the application calls and perhaps the integration of commerce.
+An Algorand wallet system, perhaps built similarly to My Algo Connect (https://github.com/randlabs/myalgo-connect, https://github.com/randlabs/encrypted-local-storage) , but with confirmation and data entry integrated into the VR environment, would facilitate the application calls and perhaps the integration of commerce.
  
 ## Commerce
 
