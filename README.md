@@ -3,7 +3,7 @@ Concept for an open metaverse using WebXR running on the Algorand blockchain
 
 ## A-frame VR
 
-There is a web technology previously referred to as WebVR, now (I think) called WebXR, that allows browsers in VR headsets to enter into VR mode. [A-frame VR](https://aframe.io/) is a library that allows you to use HTML-like markup to declaratively create VR environments in the browser (maybe slightly similar concept to VRML).  
+There are web technologies such as WebXR and WebGL that allows browsers in VR headsets to enter into VR mode and be controlled by VR controllers. [A-frame VR](https://aframe.io/) is a library that allows you to use HTML-like markup to declaratively create VR environments in the browser (maybe slightly similar concept to VRML).  
 
 This is the github repo: https://github.com/aframevr/aframe/
 
