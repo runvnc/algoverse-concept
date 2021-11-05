@@ -85,4 +85,7 @@ With an Algorand wallet system, perhaps built similarly to My Algo Connect, but 
 
 A-frame applications may use components that extend their functionality and available markup properties. There could be properties that invoke the VR friendly integrated wallet for purchase of a 3d model, for example.
 
+## Portals between VR spaces
+
+Unfortunately, navigation between pages in VR is not well supported (does not currently work on Quest 2), even though such a feature was previously available. There may be a workaround: link VR spaces on the basis of Algorand application IDs instead of requiring any URL, and keep all of the loading and unloading of spaces inside of the same web page.
 
